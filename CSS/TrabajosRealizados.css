@@ -1,0 +1,140 @@
+html {
+    background-color: #0D0D0D;
+}
+
+section.Seccion1,
+section.Seccion2,
+section.Seccion3,
+section.Seccion4 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+section.Seccion5{
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+header#Vid,
+header#Imag,
+header#Aud,
+header#TR {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-columns: 40% 20% 20% 20%;
+    justify-content: space-evenly;
+    justify-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #8C8C8C;
+}
+
+/*section.Seccion1{
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}*/
+
+section.Seccion1 article.a1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+section.Seccion1 article.a2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+section.Seccion1 article.a3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+video,
+img,
+iframe {
+    width: 100%;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 27px;
+}
+
+p {
+    color: #D9D9D9;
+    font-size: 18px;
+    text-align: justify;
+    padding: 5px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #595959;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+    color: #0D0D0D;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg th {
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 10px 5px;
+    word-break: normal;
+}
+
+.tg .tg-cly1 {
+    text-align: left;
+    vertical-align: middle
+}
+
+.tg .tg-nrix {
+    text-align: center;
+    vertical-align: middle
+}
+
+table {
+    color: #D9D9D9;
+    border-color: #8C8C8C;
+}
